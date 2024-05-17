@@ -1,0 +1,66 @@
+:root {
+        --text: #ebdbb2;
+        --background: #28282890;
+        --mainbg: #28282890;
+        --linkbg: #689d6a90;
+}
+
+body {
+        background-image: url(./assets/munbg.png);
+        background-position: right;
+        background-size: 2500px;
+}
+
+.description {
+        color: var(--text);
+        font: 24px "Ubuntu";
+}
+
+.link {
+        background-color: var(--linkbg);
+        border-radius: 8px;
+        font: 20px "Ubuntu";
+        font-weight: 900;
+        padding: 16px 0px 16px 0px;
+        text-align: center;
+        width: 236px;
+        color: var(--text);
+        display: block;
+        backdrop-filter: blur(10px);
+        text-decoration: none;
+        transition: 0.2s;
+}
+
+.link:hover {
+        border-radius: 16px;
+        filter: brightness(120%)
+}
+
+.main {
+        background-color: var(--mainbg);
+        border-radius: 24px;
+        backdrop-filter: blur(5px);
+        padding: 10px;
+        width: 500px;
+        margin: auto;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(25vh);
+        box-shadow: 0px 0px 50px 10px #282828;
+}
+
+.row {
+        display: flex;
+        margin: 2.5% 0px 2.5% 0px;
+        justify-content: space-around;
+}
+
+.title {
+        color: #ebdbb2;
+        font: bold 32px "Ubuntu";
+        text-align: center;
+}
